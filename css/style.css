@@ -1,0 +1,195 @@
+/*castom properties*/
+:root {
+	--basic-white: #ffffff;
+	--basic-black: #000000;
+	--button-red-new: #EE3643;
+	--make-order: #63A63E;
+	--upline-header: #293449;
+	--middle-line-header: #F1F5F7;
+	--nav-line-header: #32425C;
+	--materials: #FFBF47;
+	--tools: #3BBCE3;
+	--technic: #DC91D8;
+	--sales: #8ED78F;
+	--delivery: #FFC047;
+	--popular: #F9F5F0;
+	--button-services: #32425C;
+	--upline-footer: #32425C;
+	--downline-footer: #293449;
+	--circle-networks: #212A3A;
+	--text-contact-header: #EE3643;
+	--text-old-price: #A9A9A9;
+	--text-popular: #32425C;
+	--text-delivery-guarantee-credit-services: #32425C;
+	--text-nav-footer: #F1F5F7;
+	--text-link-footer: #FFD180;
+	--text-adrees-footer: #F3F7F9;
+}
+
+/*fonts*/
+@font-face {
+	font-family: "Cuprum";
+	src: url("../fonts/cuprum.woff"),
+		url("../fonts/cuprum.woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Cuprum";
+	src: url("../fonts/cuprumbold.woff"),
+		url("../fonts/cuprumbold.woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Cuprum";
+	src: url("../fonts/cuprumitalic.woff"),
+		url("../fonts/cuprumitalic.woff2");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	src: url("../fonts/ptsans.woff"),
+		url("../fonts/ptsans.woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	src: url("../fonts/ptsansbold.woff"),
+		url("../fonts/ptsansbold.woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+/*header*/
+.upline-header-nav {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white);
+	text-decoration: none;
+}
+
+.upline-header {
+	background-color: var(--upline-header);
+}
+
+.link-main-logo {
+	background-color: var(--button-red-new);
+}
+
+.make-order {
+	background-color: var(--make-order);
+}
+
+.middleline-header {
+	background-color: var(--middle-line-header)
+}
+
+.description {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
+	color: var(--text-contact-header);
+}
+
+.phone {
+	font-family: "Cuprum";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 21px;
+	line-height: 30px;
+	color: var(--text-contact-header);
+}
+
+.adress {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: var(--text-popular);
+}
+
+.login-header {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 21px;
+	line-height: 21px;
+	color: var(--basic-black);
+	text-decoration: none;
+}
+
+.nav-header {
+	background-color: var(--nav-line-header);
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.button-site-navigation {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white);
+	text-decoration: none;
+}
+
+/*offers*/
+
+.offers {
+	list-style: none;
+}
+
+.title-offers {
+	font-family: "Cuprum";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 34px;
+	line-height: 30px;
+	color: var(--basic-white);
+}
+
+.materials {
+	background-color: var(--materials);
+}
+
+.tools {
+	background-color: var(--tools);
+}
+
+.technic {
+	background-color: var(--technic);
+}
+
+.sales {
+	background-color: var(--sales);
+}
+
+.delivery-offers {
+	background-color: var(--delivery);
+}
+
+.for-offers {
+	font-family: "Cuprum";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 30px;
+	color: var(--basic-white);
+	text-decoration: none;
+}
