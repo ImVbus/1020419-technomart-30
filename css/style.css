@@ -17,13 +17,15 @@
 	--upline-footer: #32425C;
 	--downline-footer: #293449;
 	--circle-networks: #212A3A;
+	--background-services: #F1F5F7;
 	--text-contact-header: #EE3643;
 	--text-old-price: #A9A9A9;
 	--text-popular: #32425C;
 	--text-delivery-guarantee-credit-services: #32425C;
 	--text-nav-footer: #F1F5F7;
-	--text-link-footer: #FFD180;
+	--text-nav-footer-services: #FFD180;
 	--text-adrees-footer: #F3F7F9;
+	--logo-active:#BA2732;
 }
 
 /*fonts*/
@@ -84,6 +86,10 @@
 
 .link-main-logo {
 	background-color: var(--button-red-new);
+}
+
+.link-main-logo:active {
+	background-color: var(--logo-active);
 }
 
 .make-order {
@@ -192,4 +198,232 @@
 	line-height: 30px;
 	color: var(--basic-white);
 	text-decoration: none;
+}
+/*all red buttons*/
+
+.button {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	color: var(--basic-white);
+	background-color: var(--button-red-new);
+}
+
+/*img man with tool*/
+
+.title-tools {
+	font-family: "Cuprum";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 36px;
+	color: var(--basic-white);
+}
+
+.description-tools {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white);
+}
+
+/*all title popular*/
+.title {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--nav-line-header);
+}
+
+/*img tools bosch*/
+
+.bfg {
+	list-style: none;
+}
+
+.bosch-bfg {
+	font-family: "PT Sans";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: var(--basic-black);
+	text-decoration: none;
+}
+
+.old-price {
+	font-family: "PT Sans";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 18px;
+	color: var(--text-old-price);	
+}
+
+.new {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--basic-white);
+	background-color: var(--button-red-new);
+}
+
+.price {
+	font-family: "PT Sans";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 18px;
+	color: var(--basic-white);
+	background-color: var(--button-red-new);
+}
+
+/*services*/
+.main-title-services {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-black);
+}
+
+.description-services {
+	font-family: "PT Sans";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--basic-black);
+}
+
+.points-services {
+	font-family: "Cuprum";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 21px;
+	line-height: 30px;
+	color: var(--nav-line-header);
+	background-color: var(--basic-white);
+	list-style: none;
+}
+
+.services {
+	background-color: var(--background-services);
+}
+
+/*contacts*/
+.title-services {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-black);
+}
+
+.delivery-companies {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-black);
+	list-style: none;
+}
+
+/*footer*/
+.logo-footer {
+	background-color: var(--button-red-new);
+}
+
+.nav-footer {
+	background-color: var(--upline-footer);
+}
+
+.nav-button-footer {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: var(--text-nav-footer);
+	text-decoration: none;
+}
+
+.site-navigation-footer {
+	list-style: none;
+}
+
+.adress-footer {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--text-adrees-footer);
+}
+
+.nav-footer-services {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--text-nav-footer-services);
+	text-decoration: none;
+}
+
+.footer-services {
+	list-style: none;
+}
+
+.footer-down-line {
+	background-color: var(--downline-footer);
+}
+
+.copywrite {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--basic-white);
+}
+
+.email {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--text-nav-footer-services);
+}
+
+/*login form*/
+.login-enter {
+	font-family: "Cuprum";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-black);
+}
+
+.hidden-login-enter {
+	font-family: "PT Sans";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--text-old-price);
 }
