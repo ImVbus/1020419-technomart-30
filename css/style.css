@@ -74,13 +74,25 @@
 	font-style: normal;
 }
 
-/*header*/
-.upline-header-nav {
-	font-family: "Cuprum";
+@font-face {
+	font-family: "Arial";
+	src: url("../fonts/arial.woff"),
+		url("../fonts/arial.woff2")
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 18px;
 	line-height: 24px;
+	color: var(--basic-white);
+}
+
+/*header*/
+.upline-header-nav {
 	color: var(--basic-white);
 	text-decoration: none;
 }
@@ -93,9 +105,6 @@
 	background-color: var(--upline-header); 
 }
 
-.search:focus {
-	background-color: var(--basic-white)
-}
 
 .upline-header {
 	background-color: var(--upline-header);
@@ -118,8 +127,6 @@
 }
 
 .description {
-	font-family: "Cuprum";
-	font-weight: 400;
 	font-style: italic;
 	font-size: 16px;
 	line-height: 23px;
@@ -127,18 +134,13 @@
 }
 
 .phone {
-	font-family: "Cuprum";
 	font-weight: 700;
-	font-style: normal;
 	font-size: 21px;
 	line-height: 30px;
 	color: var(--text-contact-header);
 }
 
 .adress {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 14px;
 	line-height: 24px;
 	color: var(--text-popular);
@@ -153,9 +155,7 @@
 }
 
 .button-site-navigation {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--basic-white);
@@ -178,9 +178,7 @@
 }
 
 .title-offers {
-	font-family: "Cuprum";
 	font-weight: 700;
-	font-style: normal;
 	font-size: 34px;
 	line-height: 30px;
 	color: var(--basic-white);
@@ -207,16 +205,14 @@
 }
 
 .for-offers {
-	font-family: "Cuprum";
 	font-weight: 700;
-	font-style: normal;
 	font-size: 24px;
 	line-height: 30px;
-	color: var(--basic-white); /*пропадает цвет букв*/
+	color: var(--basic-white); 
 	text-decoration: none;
-	background: #FFFFFF;
+	background: rgba(0, 0, 0, 0.25);
 	mix-blend-mode: normal;
-	opacity: 0.3;
+	
 }
 
 .for-offers:hover {
@@ -233,14 +229,15 @@
 /*all red buttons*/
 
 .button {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	text-decoration: none;
 	color: var(--basic-white);
 	background-color: var(--button-red-new);
+	text-transform: uppercase;
+	padding: 0;
+  	border: none;
 }
 
 .button:hover {
@@ -254,18 +251,13 @@
 /*img man with tool*/
 
 .title-tools {
-	font-family: "Cuprum";
 	font-weight: 700;
-	font-style: normal;
 	font-size: 36px;
 	line-height: 36px;
 	color: var(--basic-white);
 }
 
 .description-tools {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--basic-white);
@@ -273,24 +265,22 @@
 
 /*all title popular*/
 .title {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--nav-line-header);
+	text-transform: uppercase;
 }
 
 /*img tools bosch*/
 
-.bfg {
+.products-list {
 	list-style: none;
 }
 
-.bosch-bfg {
-	font-family: "PT Sans";
+.name-product {
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 700;
-	font-style: normal;
 	font-size: 18px;
 	line-height: 20px;
 	color: var(--basic-black);
@@ -298,18 +288,13 @@
 }
 
 .old-price {
-	font-family: "PT Sans";
 	font-weight: 700;
-	font-style: normal;
 	font-size: 17px;
 	line-height: 18px;
 	color: var(--text-old-price);	
 }
 
 .new {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--basic-white);
@@ -317,9 +302,8 @@
 }
 
 .price {
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 700;
-	font-style: normal;
 	font-size: 17px;
 	line-height: 18px;
 	color: var(--basic-white);
@@ -327,9 +311,6 @@
 }
 
 .to-buy {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--basic-white);
@@ -348,9 +329,6 @@
 }
 
 .to-marker {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--nav-line-header);
@@ -368,27 +346,27 @@
 
 /*services*/
 .main-title-services {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--basic-black);
 }
 
 .description-services {
-	font-family: "PT Sans";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--basic-black);
+}
+
+.description-text-block {
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	color: var(--basic-black);
 }
 
 .points-services {
-	font-family: "Cuprum";
 	font-weight: 700;
-	font-style: normal;
 	font-size: 21px;
 	line-height: 30px;
 	color: var(--basic-white);
@@ -436,18 +414,18 @@
 
 /*contacts*/
 .title-services {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-black);
+}
+
+.title-text-block {
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--basic-black);
 }
 
 .delivery-companies {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--basic-black);
@@ -464,9 +442,7 @@
 }
 
 .nav-button-footer {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: var(--text-nav-footer);
@@ -486,18 +462,12 @@
 }
 
 .adress-footer {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--text-adrees-footer);
 }
 
 .nav-footer-services {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--text-nav-footer-services);
@@ -523,18 +493,12 @@
 }
 
 .copywrite {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 16px;
 	line-height: 18px;
 	color: var(--basic-white);
 }
 
 .email {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 16px;
 	line-height: 18px;
 	color: var(--text-nav-footer-services);
@@ -550,20 +514,19 @@
 	color: var(--button-red-new);
 }
 
+.networks {
+	list-style: none;
+}
+
 /*login form*/
 .login-enter {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--basic-black);
 }
 
 .hidden-login-enter {
-	font-family: "PT Sans";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 13px;
 	line-height: 24px;
 	color: var(--text-old-price);
@@ -572,9 +535,6 @@
 /*catalog*/
 
 .login-header {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 21px;
 	line-height: 21px;
 	color: var(--basic-black);
@@ -592,9 +552,6 @@
 
 
 .login-name {
-	font-family: "Cuprum";
-	font-weight: 400;
-	font-style: normal;
 	font-size: 21px;
 	line-height: 21px;
 	color: var(--basic-black);
@@ -606,10 +563,20 @@
 	color: var(--login-active);
 }
 
+
+
+.breadcrumbs-link {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: var(--basic-black);
+	text-decoration:none;
+	list-style: none;
+}
+
+
 .title-catalog {
-	font-family: "PT Sans";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	color: var(--basic-black);
@@ -618,7 +585,17 @@
 	list-style: none;
 }
 
-.filter-price {
+.title-catalog-filter {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: var(--basic-black);
+	text-decoration:none;
+	list-style: none;
+}
+
+
+.filter-active {
 	color: var(--button-red-new);
 }
 
@@ -638,37 +615,37 @@
 	text-decoration: none;
 }
 
-.title-checked {
-	font-family: "PT Sans";
+.checkbox {
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 700;
-	font-style: normal;
 	font-size: 17px;
 	line-height: 30px;
 	color: var(--basic-black);
 }
 
 .range {
-	font-family: "PT Sans";
-	font-weight: 400;
-	font-style: normal;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	color: var(--basic-black);
 }
 
-.checked {
-	font-family: "PT Sans";
-	font-weight: 400;
-	font-style: normal;
+input[type="checkbox"] + label {
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 19px;
 	color: var(--basic-black);
 }
 
-.button-view-next {
-	font-family: "PT Sans";
-	font-weight: 400;
-	font-style: normal;
+input[type="radio"] + label {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 15px;
+	line-height: 19px;
+	color: var(--basic-black);
+}
+
+.filter-button {
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	color: var(--basic-black);
@@ -678,10 +655,24 @@
 	text-decoration: none;
 }
 
-.button-view-next:active {
+.pagenavi {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: var(--basic-black);
+	background-color: var(--basic-white);
+	border: 1px solid #E5E5E5;
+	list-style: none;
+}
+
+.pagenavi-link {
+	text-decoration: none;
+}
+
+.pagenavi:active {
 	border: 1px solid #EE3643;
 }
 
-.first-page:visited {
+.current-page:visited {
 	background-color: var(--button-red-new);
 }
